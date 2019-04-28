@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>sun_first_vue</title>
+  </head>
+  <body>
+    <div id="app">
+      <p v-if="seen">
+        {{ message }}
+      </p>
+    </div>
+    <div id="appfor">
+      <ol>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
