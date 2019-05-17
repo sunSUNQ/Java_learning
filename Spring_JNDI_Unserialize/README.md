@@ -108,7 +108,7 @@ public class Test {
 }
 ```
 
-![1558014266956](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558014266956.png)
+![1558014266956](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558014266956.png)
 
 ## JNDI Naming Reference
 
@@ -127,13 +127,13 @@ java为了将object对象存储在Naming或者Directory服务下，提供了Nami
 
 我们跟进一下`lookup`的方法，看一下里边就执行了一个`getURLOrDefaultInitCtx()`
 
-![1558058468822](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558058468822.png)
+![1558058468822](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558058468822.png)
 
 进一步跟进`getURLOrDefaultInitCtx()`，就是先执行`getDefaultInitCtx()`，如果没有找到就执行`getURLContext()`
 
-![1558058650997](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558058650997.png)
+![1558058650997](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558058650997.png)
 
-![1558058723406](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558058723406.png)
+![1558058723406](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558058723406.png)
 
 说明了，即使将`Context.PROVIDER_URL`的参数初始化为 `rmi://127.0.0.1:1099/a` ，但是如果`lookup`的参数可以控制，就可以重写`url`地址，将`url`指向我们特定的服务器。
 
@@ -251,7 +251,7 @@ public class ClientTest {
 
 其次要注意一下线程要sleep一下，不然的话会弹计算器弹的什么都干不了。。。。。日常感觉自己蠢哭系列
 
-![1558080313043](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558080313043.png)
+![1558080313043](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558080313043.png)
 
 
 
@@ -261,15 +261,15 @@ public class ClientTest {
 
 首先是看一下`org.springframework.transaction.jta.JtaTransactionManager`这个类里边的源码，发现有readObject的方法重写。
 
-![1558081125247](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558081125247.png)
+![1558081125247](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558081125247.png)
 
 进一步跟进`initUserTransactionAndTransactionManager()`方法，主要功能为使用JNDI的方法，来查找`this.userTransactionName` 对应的事务，然后调用了`this.lookupUserTransaction(this.userTransactionName)` 。
 
-![1558081153927](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558081153927.png)
+![1558081153927](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558081153927.png)
 
 进一步跟进，会发现调用了`this.getJndiTemplate().lookup()`方法，这个就是之前说到过的`lookup`方法，可以通过对这个方法的参数设计，来执行命令。
 
-![1558081368924](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558081368924.png)
+![1558081368924](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558081368924.png)
 
 ### 整体的调用链思路：
 
@@ -380,7 +380,7 @@ public class JDNI {
 
 依旧是先执行Server端，然后执行Client端，就可以实现复现。同样注意要开启两个项目，然后注意一下文件目录问题就可以了。
 
-![1558083355134](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558083355134.png)
+![1558083355134](https://github.com/sunSUNQ/Java_learning/raw/master/Spring_JNDI_Unserialize/image/1558083355134.png)
 
 
 
