@@ -1,7 +1,5 @@
-# JavaUnserializePocs
+# FastjsonUnserializeTemplatesImpl
 
 java反序列化学习的一些测试代码
 
-* fastjson反序列化漏洞 fastjsonPoc.java
-* apache common collections 反序列化漏洞 CommonCollections.java
-* [spring-jndi反序列化](https://github.com/zerothoughts/spring-jndis) 
+主要用于对于fastjson类型的反序列化漏洞使用TemplatesImpl类进行反射链构造的样例来进行复现
