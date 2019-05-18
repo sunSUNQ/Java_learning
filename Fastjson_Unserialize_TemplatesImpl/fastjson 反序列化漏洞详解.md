@@ -197,35 +197,35 @@ JavaUnser.babyFastjson@1f96a21e
 
 由于`com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl`类的`outputProperties`属性类型为`Properties`，因此在反序列化时会调用该类的`getOutputProperties`方法。
 
-![1558156601121](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558156601121.png)
+![1558156601121](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558156601121.png)
 
 进一步跟进`newTransformer().getOutputProperties()`
 
-![1558156675562](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558156675562.png)
+![1558156675562](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558156675562.png)
 
 需要实例化一个`TransformerImpl`类的对象，跟进`getTransletInstance()`方向
 
-![1558156764339](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558156764339.png)
+![1558156764339](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558156764339.png)
 
 继续跟进`defineTransletClasses()`，可以看到就是对我们输入的`_bytecodes`进行遍历，执行`loader.defineClass()`方法。`_bytecodes`字节数组创建一个`_class`，`_bytecodes`加载到`_class`中。
 
-![1558156927188](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558156927188.png)
+![1558156927188](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558156927188.png)
 
 执行完`defineTransletClasses()`，返回到`getTransletInstance()`，然后根据`_class`,用`newInstance`生成一个java实例。生成的实例就是我们穿进去的恶意类的实例。因此可以执行恶意代码。
 
-![1558157961686](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558157961686.png)
+![1558157961686](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558157961686.png)
 
 下断点调试一下就可以看到。
 
-![1558158637834](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558158637834.png)
+![1558158637834](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558158637834.png)
 
 查看一下调用链的过程。这里不一步一步的讲啦，有兴趣的可以自己去跟进一下就可以了。
 
-![1558158718030](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558158718030.png)
+![1558158718030](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558158718030.png)
 
 然后再进行单步跳过就可以看到已经弹出了计算器了。
 
-![1558158824290](C:\Users\varas\AppData\Roaming\Typora\typora-user-images\1558158824290.png)
+![1558158824290](https://github.com/sunSUNQ/Java_learning/raw/master/Fastjson_Unserialize_TemplatesImpl/image/1558158824290.png)
 
 ## 参考链接
 
