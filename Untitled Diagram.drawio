@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T12:52:32.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="pHU2HfiK6NLI35-hmlkU" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T12:55:38.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="S5-qwiwDbu_shYDfu2f-" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="Re24QMPTCdzhNl0H0kzx-14" value="Vulnerable Function Existence &#xa;Version Calculation" style="text;strokeColor=none;fillColor=#030303;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;labelBackgroundColor=#030303;fontColor=#FFFFFF;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="30" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-15" value="Function&lt;br&gt;Similarity&lt;br&gt;determination" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="80" width="180" height="190" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-15" value="Function Similarity&lt;br&gt;Determination To&lt;br&gt;Vulnerable Fuction" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="80" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Re24QMPTCdzhNl0H0kzx-18" value="Separately Analyse&lt;br&gt;and Merge Result" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="344" y="80" width="140" height="190" as="geometry" />
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="Re24QMPTCdzhNl0H0kzx-27" value="Separately Analyse&lt;br&gt;and Merge Result" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="80" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-29" value="Function&amp;nbsp;Similarity&lt;br&gt;Determination To&lt;br&gt;Patched Fuction" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="150" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
