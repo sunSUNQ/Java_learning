@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T12:56:47.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="Qap0tAXpBbKPWFU7CH_5" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T13:00:11.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="gmeI2ZwNBB7hOReP0m5f" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
           <mxGeometry x="120" y="30" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Re24QMPTCdzhNl0H0kzx-15" value="Similarity To&lt;br&gt;Vulnerable Fuction" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="95" width="180" height="60" as="geometry" />
+          <mxGeometry x="120" y="85" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-18" value="Separately Analyse&lt;br&gt;and Merge Result" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="344" y="80" width="140" height="150" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-18" value="Merge&amp;nbsp;&lt;br&gt;Branch‘s&lt;br&gt;Results" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="80" width="54" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Re24QMPTCdzhNl0H0kzx-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.56;dx=16.67;direction=south;notch=0;rounded=0;glass=0;rotation=-90;labelBackgroundColor=#080808;labelBorderColor=default;fillColor=#030303;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="145" width="33.5" height="30" as="geometry" />
@@ -31,11 +31,17 @@
         <mxCell id="Re24QMPTCdzhNl0H0kzx-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.56;dx=16.67;direction=south;notch=0;rounded=0;glass=0;rotation=-90;labelBackgroundColor=#080808;labelBorderColor=default;fillColor=#030303;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="307.5" y="145" width="33.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-27" value="Separately Analyse&lt;br&gt;and Merge Result" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="80" width="140" height="150" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-27" value="Remove&lt;br&gt;Useless&lt;br&gt;PFInfos" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="80" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Re24QMPTCdzhNl0H0kzx-29" value="Similarity To&lt;br&gt;Patched Fuction" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="175" width="180" height="60" as="geometry" />
+          <mxGeometry x="120" y="155" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-31" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="80" width="60" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-32" value="Separately Different&lt;br&gt;Branch" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;dashed=1;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="80" width="54" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
