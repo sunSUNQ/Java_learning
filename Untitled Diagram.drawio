@@ -1,140 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T02:08:15.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="wrSj6DiSwNIY5t_34VpP" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T02:44:48.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="akTV0-7LIDWcf0wA31qz" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1117" dy="689" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="Re24QMPTCdzhNl0H0kzx-70" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;fontSize=16;fontColor=default;fillColor=none;gradientColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="44" y="231" width="352" height="594" as="geometry" />
+          <mxGeometry x="38.75" y="220" width="407" height="594" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-14" value="Vulnerable Function Existence &#xa;Version Calculation" style="text;strokeColor=none;fillColor=#030303;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;labelBackgroundColor=#030303;fontColor=#FFFFFF;fontSize=15;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="88.5" y="494.25" width="242" height="40" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-33" value="Deleted and Added Lines&#39; Number and Content" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=90;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="337.76" width="154" height="93.5" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-21" value="Branch Management &#xa;Processing" style="text;strokeColor=none;fillColor=#030303;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;labelBackgroundColor=#030303;fontColor=#FFFFFF;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="88.5" y="625" width="242" height="40" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-41" value="Patched Functions Name and Location" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=90;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155.57" y="345.24" width="154.26" height="78.55" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-22" value="CVE Existence Vulnerability &#xa;Version Calculation" style="text;strokeColor=none;fillColor=#030303;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;labelBackgroundColor=#030303;fontColor=#FFFFFF;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="88.5" y="759" width="242" height="40" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-42" value="Target Software‘s&lt;br style=&quot;font-size: 18px;&quot;&gt;Source Code（versions）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=90;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="342.92" width="152" height="83.18" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-33" value="Deleted and Added Lines（Number and Content）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="209" y="346.5" width="152" height="77" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-43" value="Each PFInfo’s Vulnerable Version List" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="89" y="550" width="307.5" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-39" value="Patch and Source Code Collection" style="text;strokeColor=none;fillColor=#030303;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;labelBackgroundColor=#030303;fontColor=#FFFFFF;fontSize=15;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="88" y="250" width="242" height="40" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-44" value="Each Branch’s Vulnerable Version List&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="88.5" y="680" width="307.5" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-41" value="Patched Functions Name and Location" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="121" y="357.5" width="152" height="55" as="geometry" />
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-45" value="CVE&#39;s Vulnerable Version List" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="88" y="836" width="308" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-42" value="Target Software‘s&lt;br&gt;Source Code（versions）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="44" y="357.5" width="152" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-43" value="Each PFInfo’s Vulnerable Version List" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="88.5" y="546.75" width="242" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-44" value="Each Branch’s Vulnerable Version List&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="88.5" y="680" width="242" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-45" value="CVE&#39;s Vulnerable Version List" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="88" y="847" width="242" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-43" target="Re24QMPTCdzhNl0H0kzx-21">
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-43" target="Re24QMPTCdzhNl0H0kzx-84">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="214.10000000000014" y="605.605" as="sourcePoint" />
-            <mxPoint x="213.4849999999999" y="616.4839999999999" as="targetPoint" />
+            <mxPoint x="243.98000000000002" y="616.7349999999999" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=default;exitX=0.493;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-21" target="Re24QMPTCdzhNl0H0kzx-44">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220.52941176470586" y="872.9999999999998" as="sourcePoint" />
-            <mxPoint x="221" y="902" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-57" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-14" target="Re24QMPTCdzhNl0H0kzx-43">
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-57" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-82" target="Re24QMPTCdzhNl0H0kzx-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220.5" y="605.75" as="sourcePoint" />
+            <mxPoint x="242.55733944954136" y="534.2499999999998" as="sourcePoint" />
             <mxPoint x="220.5" y="636" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-58" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-44" target="Re24QMPTCdzhNl0H0kzx-22">
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-58" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-44" target="Re24QMPTCdzhNl0H0kzx-85">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220.5" y="545.25" as="sourcePoint" />
-            <mxPoint x="220.5" y="557.75" as="targetPoint" />
+            <mxPoint x="242.25" y="748" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-59" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Re24QMPTCdzhNl0H0kzx-45">
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-59" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-85" target="Re24QMPTCdzhNl0H0kzx-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="792" as="sourcePoint" />
+            <mxPoint x="241.9425000000001" y="801.4989999999998" as="sourcePoint" />
             <mxPoint x="220.5" y="770" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-60" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220.5" y="605.75" as="sourcePoint" />
-            <mxPoint x="286" y="495" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-61" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-41">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="296" y="472" as="sourcePoint" />
-            <mxPoint x="198" y="495" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-62" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.127;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-42" target="Re24QMPTCdzhNl0H0kzx-14">
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-62" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0.129;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-42" target="Re24QMPTCdzhNl0H0kzx-82">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="208" y="471.9999999999998" as="sourcePoint" />
-            <mxPoint x="209" y="506" as="targetPoint" />
+            <mxPoint x="127.55250000000001" y="484.90449999999987" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-63" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Re24QMPTCdzhNl0H0kzx-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="286" y="286" as="sourcePoint" />
-            <mxPoint x="297" y="506" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-66" value="CVE ID" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="253" y="99" width="130" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-64" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Re24QMPTCdzhNl0H0kzx-41">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="198" y="286" as="sourcePoint" />
-            <mxPoint x="209" y="506" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-67" value="Target Software&#39;s &lt;br style=&quot;font-size: 18px;&quot;&gt;Name" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=18;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="99" y="99" width="130" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-65" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.155;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-39" target="Re24QMPTCdzhNl0H0kzx-42">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="209" y="297" as="sourcePoint" />
-            <mxPoint x="208" y="319.9999999999999" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-66" value="CVE ID" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="194.5" y="116" width="130" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-67" value="Target Software&#39;s &lt;br&gt;Name" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;verticalAlign=middle;fontSize=14;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="77" y="116.5" width="130" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-71" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-66">
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-71" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-66" target="Re24QMPTCdzhNl0H0kzx-75">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="296" y="472" as="sourcePoint" />
             <mxPoint x="260" y="253" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Re24QMPTCdzhNl0H0kzx-73" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.219;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-67" target="Re24QMPTCdzhNl0H0kzx-39">
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-73" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-67" target="Re24QMPTCdzhNl0H0kzx-75">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270.5" y="230.5000000000001" as="sourcePoint" />
-            <mxPoint x="271" y="264" as="targetPoint" />
+            <mxPoint x="155.452" y="251.95999999999992" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Re24QMPTCdzhNl0H0kzx-74" value="VERJava" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;fontSize=25;fontColor=default;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="273" y="499.25" width="192" height="30" as="geometry" />
+          <mxGeometry x="324.5" y="494.25" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-75" value="Patch and Source Code Collection" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=18;fontColor=#000000;strokeColor=default;strokeWidth=2;fillColor=none;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="88.5" y="240" width="308" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-84" target="Re24QMPTCdzhNl0H0kzx-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="671" as="sourcePoint" />
+            <mxPoint x="253.75" y="627" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-82" value="&lt;span&gt;Vulnerable Function Existence&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;Version Calculation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=18;fontColor=#000000;strokeColor=default;strokeWidth=2;fillColor=none;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="88" y="484" width="308" height="48.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-84" value="&lt;span&gt;Branch Management&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;Processing&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=18;fontColor=#000000;strokeColor=default;strokeWidth=2;fillColor=none;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="89" y="616" width="308" height="48.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-85" value="&lt;span&gt;CVE Existence Vulnerability&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;Version Calculation&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontSize=18;fontColor=#000000;strokeColor=default;strokeWidth=2;fillColor=none;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="88.25" y="748" width="308" height="48.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-86" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.51203447939088" y="471.5100000000002" as="sourcePoint" />
+            <mxPoint x="233" y="484" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-87" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Re24QMPTCdzhNl0H0kzx-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="243.69999999999982" y="472.645" as="sourcePoint" />
+            <mxPoint x="337" y="484" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-88" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Re24QMPTCdzhNl0H0kzx-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="131" y="286" as="sourcePoint" />
+            <mxPoint x="138.7320000000002" y="495.3377499999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Re24QMPTCdzhNl0H0kzx-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="233" y="286" as="sourcePoint" />
+            <mxPoint x="142" y="319.5100000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re24QMPTCdzhNl0H0kzx-90" value="" style="endArrow=classic;html=1;rounded=0;fontSize=16;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Re24QMPTCdzhNl0H0kzx-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="337" y="286" as="sourcePoint" />
+            <mxPoint x="243.69999999999982" y="318.385" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
